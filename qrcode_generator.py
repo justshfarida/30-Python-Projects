@@ -15,7 +15,7 @@ class MyQr:
             print(f"Error: {e}")
 
 def main():
-    myqr = MyQr(size=30, padding=4)
+    myqr = MyQr(size=30, padding=3)
     myqr.create_qr("sample.png", "pink", "white")
 
 if __name__ == '__main__':
